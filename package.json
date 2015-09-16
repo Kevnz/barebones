@@ -1,0 +1,46 @@
+{
+  "name": "barebones",
+  "version": "1.0.0",
+  "description": "Simple repo for getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "",
+    "watch": "",
+    "build": "gulp build",
+    "css": "gulp css",
+    "js": "gulp js",
+    "lint": "gulp lint"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "babel-eslint": "^4.1.2",
+    "babelify": "^6.3.0",
+    "beepbeep": "^1.2.0",
+    "browserify": "^11.1.0",
+    "eslint-config-airbnb": "0.0.8",
+    "eslint-plugin-react": "^3.4.1",
+    "font-awesome": "^4.4.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-eslint": "^1.0.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rework": "^1.0.3",
+    "pure-extras": "^1.0.0",
+    "pure-typography": "^1.0.0",
+    "purecss": "^0.6.0",
+    "rework-color-function": "^1.2.1",
+    "rework-import": "^2.1.0",
+    "rework-inherit": "^0.2.3",
+    "rework-npm": "^1.0.0",
+    "rework-vars": "^3.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
