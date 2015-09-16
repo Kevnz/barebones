@@ -84,7 +84,7 @@ gulp.task('css', () => {
 gulp.task('build', ['css', 'js'])
 
 gulp.task('watch', () => {
-    plugins.livereload.listen({port:35739});
+    plugins.livereload.listen({port:35749});
     gulp.watch(['./src/css/*.css','./src/css/**/**.css'], ['css']);
     gulp.watch(['./src/js/**.js','./src/js/**/*.js'], ['js']);
 

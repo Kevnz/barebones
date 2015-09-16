@@ -4,3 +4,11 @@ body {
   font-size:86%;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+#main {
+    inherit:.pure-g;
+}
+
+.firstRow {
+    inherit:.pure-u-1-1;
+}
